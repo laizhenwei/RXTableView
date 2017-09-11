@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ReactiveObjC.h>
-#import <MJRefresh.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <MJRefresh/MJRefresh.h>
 #import "NSObject+RX.h"
 #import "UITableViewCell+RX.h"
 
