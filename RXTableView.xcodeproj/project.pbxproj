@@ -44,7 +44,7 @@
 		C6C1C5A81F65892E00CE50C9 /* UITableViewCell+RX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RX.m"; sourceTree = "<group>"; };
 		C6C1C5AA1F65893B00CE50C9 /* NSObject+RX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RX.h"; sourceTree = "<group>"; };
 		C6C1C5AB1F65893B00CE50C9 /* NSObject+RX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RX.m"; sourceTree = "<group>"; };
-		C6C1C5AD1F6629D300CE50C9 /* RXTableView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RXTableView.podspec; sourceTree = "<group>"; };
+		C6C1C5AD1F6629D300CE50C9 /* RXTableViewObjc.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RXTableViewObjc.podspec; sourceTree = "<group>"; };
 		C6C1C5AE1F662C8300CE50C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6C1C5B01F662CA900CE50C9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6C1C5B81F663E4000CE50C9 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 			children = (
 				C6C1C5B01F662CA900CE50C9 /* LICENSE */,
 				C6C1C5AE1F662C8300CE50C9 /* README.md */,
-				C6C1C5AD1F6629D300CE50C9 /* RXTableView.podspec */,
+				C6C1C5AD1F6629D300CE50C9 /* RXTableViewObjc.podspec */,
 			);
 			name = "Pod Files";
 			sourceTree = "<group>";
