@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6654E9E8D700A3BCBD084574 /* libPods-RXTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E7C68D479FF39F9F2C74B5 /* libPods-RXTableView.a */; };
+		C6C1C58F1F6588E900CE50C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C58E1F6588E900CE50C9 /* AppDelegate.m */; };
+		C6C1C5921F6588E900CE50C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5911F6588E900CE50C9 /* ViewController.m */; };
+		C6C1C5951F6588E900CE50C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C1C5931F6588E900CE50C9 /* Main.storyboard */; };
+		C6C1C5971F6588E900CE50C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C1C5961F6588E900CE50C9 /* Assets.xcassets */; };
+		C6C1C59A1F6588E900CE50C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C1C5981F6588E900CE50C9 /* LaunchScreen.storyboard */; };
+		C6C1C59D1F6588E900CE50C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C59C1F6588E900CE50C9 /* main.m */; };
+		C6C1C5A61F65890B00CE50C9 /* RXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5A51F65890B00CE50C9 /* RXTableView.m */; };
+		C6C1C5A91F65892E00CE50C9 /* UITableViewCell+RX.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5A81F65892E00CE50C9 /* UITableViewCell+RX.m */; };
+		C6C1C5AC1F65893B00CE50C9 /* NSObject+RX.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5AB1F65893B00CE50C9 /* NSObject+RX.m */; };
+		C6C1C5BA1F663E4000CE50C9 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5B91F663E4000CE50C9 /* FeedTableViewCell.m */; };
+		C6C1C5C11F663ED200CE50C9 /* RXMessageMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5BF1F663ED200CE50C9 /* RXMessageMiddleware.m */; };
+		C6C1C5C41F663F2300CE50C9 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5C31F663F2300CE50C9 /* FeedViewModel.m */; };
+		C6C1C5C71F664F0000CE50C9 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C1C5C61F664F0000CE50C9 /* FeedModel.m */; };
+		C6C1C5D21F66662C00CE50C9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C6C1C5D11F66662C00CE50C9 /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19274C8029BD42A24BFE1DBD /* Pods-RXTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXTableView/Pods-RXTableView.release.xcconfig"; sourceTree = "<group>"; };
+		5B40D63B4C6BF85367376981 /* Pods-RXTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXTableView/Pods-RXTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		B9E7C68D479FF39F9F2C74B5 /* libPods-RXTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C1C58A1F6588E900CE50C9 /* RXTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C1C58D1F6588E900CE50C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6C1C58E1F6588E900CE50C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6C1C5901F6588E900CE50C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6C1C5911F6588E900CE50C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6C1C5941F6588E900CE50C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6C1C5961F6588E900CE50C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6C1C5991F6588E900CE50C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6C1C59B1F6588E900CE50C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C1C59C1F6588E900CE50C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6C1C5A41F65890B00CE50C9 /* RXTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXTableView.h; sourceTree = "<group>"; };
+		C6C1C5A51F65890B00CE50C9 /* RXTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXTableView.m; sourceTree = "<group>"; };
+		C6C1C5A71F65892E00CE50C9 /* UITableViewCell+RX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RX.h"; sourceTree = "<group>"; };
+		C6C1C5A81F65892E00CE50C9 /* UITableViewCell+RX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RX.m"; sourceTree = "<group>"; };
+		C6C1C5AA1F65893B00CE50C9 /* NSObject+RX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RX.h"; sourceTree = "<group>"; };
+		C6C1C5AB1F65893B00CE50C9 /* NSObject+RX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RX.m"; sourceTree = "<group>"; };
+		C6C1C5AD1F6629D300CE50C9 /* RXTableView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RXTableView.podspec; sourceTree = "<group>"; };
+		C6C1C5AE1F662C8300CE50C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6C1C5B01F662CA900CE50C9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6C1C5B81F663E4000CE50C9 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		C6C1C5B91F663E4000CE50C9 /* FeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		C6C1C5BF1F663ED200CE50C9 /* RXMessageMiddleware.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXMessageMiddleware.m; sourceTree = "<group>"; };
+		C6C1C5C01F663ED200CE50C9 /* RXMessageMiddleware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXMessageMiddleware.h; sourceTree = "<group>"; };
+		C6C1C5C21F663F2300CE50C9 /* FeedViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewModel.h; sourceTree = "<group>"; };
+		C6C1C5C31F663F2300CE50C9 /* FeedViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewModel.m; sourceTree = "<group>"; };
+		C6C1C5C51F664F0000CE50C9 /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		C6C1C5C61F664F0000CE50C9 /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
+		C6C1C5D11F66662C00CE50C9 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C1C5871F6588E900CE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6654E9E8D700A3BCBD084574 /* libPods-RXTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11152CA10FB9F8393D2BCA3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9E7C68D479FF39F9F2C74B5 /* libPods-RXTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4142EC7E6F52B642434FD142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B40D63B4C6BF85367376981 /* Pods-RXTableView.debug.xcconfig */,
+				19274C8029BD42A24BFE1DBD /* Pods-RXTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C1C5811F6588E900CE50C9 = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5AF1F662C8A00CE50C9 /* Pod Files */,
+				C6C1C5A31F6588EE00CE50C9 /* RXTableView */,
+				C6C1C58C1F6588E900CE50C9 /* RXTableViewDemo */,
+				C6C1C58B1F6588E900CE50C9 /* Products */,
+				4142EC7E6F52B642434FD142 /* Pods */,
+				11152CA10FB9F8393D2BCA3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C1C58B1F6588E900CE50C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C58A1F6588E900CE50C9 /* RXTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C1C58C1F6588E900CE50C9 /* RXTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5BB1F663E4F00CE50C9 /* Classes */,
+				C6C1C5931F6588E900CE50C9 /* Main.storyboard */,
+				C6C1C5961F6588E900CE50C9 /* Assets.xcassets */,
+				C6C1C5981F6588E900CE50C9 /* LaunchScreen.storyboard */,
+				C6C1C59B1F6588E900CE50C9 /* Info.plist */,
+				C6C1C59C1F6588E900CE50C9 /* main.m */,
+			);
+			path = RXTableViewDemo;
+			sourceTree = "<group>";
+		};
+		C6C1C5A31F6588EE00CE50C9 /* RXTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5A41F65890B00CE50C9 /* RXTableView.h */,
+				C6C1C5A51F65890B00CE50C9 /* RXTableView.m */,
+				C6C1C5A71F65892E00CE50C9 /* UITableViewCell+RX.h */,
+				C6C1C5A81F65892E00CE50C9 /* UITableViewCell+RX.m */,
+				C6C1C5AA1F65893B00CE50C9 /* NSObject+RX.h */,
+				C6C1C5AB1F65893B00CE50C9 /* NSObject+RX.m */,
+				C6C1C5C01F663ED200CE50C9 /* RXMessageMiddleware.h */,
+				C6C1C5BF1F663ED200CE50C9 /* RXMessageMiddleware.m */,
+			);
+			path = RXTableView;
+			sourceTree = "<group>";
+		};
+		C6C1C5AF1F662C8A00CE50C9 /* Pod Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5B01F662CA900CE50C9 /* LICENSE */,
+				C6C1C5AE1F662C8300CE50C9 /* README.md */,
+				C6C1C5AD1F6629D300CE50C9 /* RXTableView.podspec */,
+			);
+			name = "Pod Files";
+			sourceTree = "<group>";
+		};
+		C6C1C5BB1F663E4F00CE50C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C58D1F6588E900CE50C9 /* AppDelegate.h */,
+				C6C1C58E1F6588E900CE50C9 /* AppDelegate.m */,
+				C6C1C5D61F66730A00CE50C9 /* Model */,
+				C6C1C5D41F6672F400CE50C9 /* View */,
+				C6C1C5D31F6672E200CE50C9 /* ViewModel */,
+				C6C1C5D51F6672FB00CE50C9 /* ViewController */,
+				C6C1C5D11F66662C00CE50C9 /* data.json */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6C1C5D31F6672E200CE50C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5C21F663F2300CE50C9 /* FeedViewModel.h */,
+				C6C1C5C31F663F2300CE50C9 /* FeedViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C6C1C5D41F6672F400CE50C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5B81F663E4000CE50C9 /* FeedTableViewCell.h */,
+				C6C1C5B91F663E4000CE50C9 /* FeedTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6C1C5D51F6672FB00CE50C9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5901F6588E900CE50C9 /* ViewController.h */,
+				C6C1C5911F6588E900CE50C9 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C6C1C5D61F66730A00CE50C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1C5C51F664F0000CE50C9 /* FeedModel.h */,
+				C6C1C5C61F664F0000CE50C9 /* FeedModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C1C5891F6588E900CE50C9 /* RXTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C1C5A01F6588E900CE50C9 /* Build configuration list for PBXNativeTarget "RXTableView" */;
+			buildPhases = (
+				95B5810DBA9F182C59E02342 /* [CP] Check Pods Manifest.lock */,
+				C6C1C5861F6588E900CE50C9 /* Sources */,
+				C6C1C5871F6588E900CE50C9 /* Frameworks */,
+				C6C1C5881F6588E900CE50C9 /* Resources */,
+				C6303F400FAD150B590EEFE7 /* [CP] Embed Pods Frameworks */,
+				6E27ED17487FA5A4A4C98165 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RXTableView;
+			productName = RXTableView;
+			productReference = C6C1C58A1F6588E900CE50C9 /* RXTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C1C5821F6588E900CE50C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = laizw;
+				TargetAttributes = {
+					C6C1C5891F6588E900CE50C9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6C1C5851F6588E900CE50C9 /* Build configuration list for PBXProject "RXTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C1C5811F6588E900CE50C9;
+			productRefGroup = C6C1C58B1F6588E900CE50C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C1C5891F6588E900CE50C9 /* RXTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C1C5881F6588E900CE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C1C59A1F6588E900CE50C9 /* LaunchScreen.storyboard in Resources */,
+				C6C1C5971F6588E900CE50C9 /* Assets.xcassets in Resources */,
+				C6C1C5951F6588E900CE50C9 /* Main.storyboard in Resources */,
+				C6C1C5D21F66662C00CE50C9 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E27ED17487FA5A4A4C98165 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXTableView/Pods-RXTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B5810DBA9F182C59E02342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6303F400FAD150B590EEFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXTableView/Pods-RXTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C1C5861F6588E900CE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C1C5921F6588E900CE50C9 /* ViewController.m in Sources */,
+				C6C1C5C71F664F0000CE50C9 /* FeedModel.m in Sources */,
+				C6C1C5AC1F65893B00CE50C9 /* NSObject+RX.m in Sources */,
+				C6C1C5C41F663F2300CE50C9 /* FeedViewModel.m in Sources */,
+				C6C1C5A61F65890B00CE50C9 /* RXTableView.m in Sources */,
+				C6C1C5C11F663ED200CE50C9 /* RXMessageMiddleware.m in Sources */,
+				C6C1C59D1F6588E900CE50C9 /* main.m in Sources */,
+				C6C1C5BA1F663E4000CE50C9 /* FeedTableViewCell.m in Sources */,
+				C6C1C58F1F6588E900CE50C9 /* AppDelegate.m in Sources */,
+				C6C1C5A91F65892E00CE50C9 /* UITableViewCell+RX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6C1C5931F6588E900CE50C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C1C5941F6588E900CE50C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6C1C5981F6588E900CE50C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C1C5991F6588E900CE50C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6C1C59E1F6588E900CE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6C1C59F1F6588E900CE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6C1C5A11F6588E900CE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40D63B4C6BF85367376981 /* Pods-RXTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLMC3TB7QD;
+				INFOPLIST_FILE = "$(SRCROOT)/RXTableViewDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.laizw.RXTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6C1C5A21F6588E900CE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19274C8029BD42A24BFE1DBD /* Pods-RXTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLMC3TB7QD;
+				INFOPLIST_FILE = "$(SRCROOT)/RXTableViewDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.laizw.RXTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C1C5851F6588E900CE50C9 /* Build configuration list for PBXProject "RXTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C1C59E1F6588E900CE50C9 /* Debug */,
+				C6C1C59F1F6588E900CE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C1C5A01F6588E900CE50C9 /* Build configuration list for PBXNativeTarget "RXTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C1C5A11F6588E900CE50C9 /* Debug */,
+				C6C1C5A21F6588E900CE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C1C5821F6588E900CE50C9 /* Project object */;
+}
